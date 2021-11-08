@@ -780,7 +780,7 @@ const cryptocurrenciesById: Record<string, CryptoCurrency> = {
     bitcoinLikeInfo: {
       P2PKH = 30,
       P2SH = 13,
-      // XPUBVersion: 0x022d2533,
+      XPUBVersion: 0x022d2533,
     },
     units: [
       {
