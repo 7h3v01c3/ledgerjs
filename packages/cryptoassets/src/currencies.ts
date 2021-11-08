@@ -766,6 +766,41 @@ const cryptocurrenciesById: Record<string, CryptoCurrency> = {
       },
     ],
   },
+  divi: {
+    type: "CryptoCurrency",
+    id: "divi",
+    coinType: 301,
+    name: "Divi",
+    managerAppName: "Divi",
+    ticker: "DIVI",
+    scheme: "divi",
+    color: "#EC2340",
+    family: "bitcoin",
+    blockAvgTime: 60,
+    bitcoinLikeInfo: {
+      P2PKH = 30,
+      P2SH = 13,
+      // XPUBVersion: 0x022d2533,
+    },
+    units: [
+      {
+        name: "divi",
+        code: "DIVI",
+        magnitude: 8,
+      },
+      {
+        name: "satoshi",
+        code: "sat",
+        magnitude: 0,
+      },
+    ],
+    explorerViews: [
+      {
+        tx: "https://chainz.cryptoid.info/divi/tx.dws?$hash.htm",
+        address: "https://chainz.cryptoid.info/divi/address.dws?$address.htm",
+      },
+    ],
+  },
   dogecoin: {
     type: "CryptoCurrency",
     id: "dogecoin",
